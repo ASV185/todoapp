@@ -1,12 +1,34 @@
 body {
-  background-color: rgb(89, 158, 104);
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f29492,
+    #114357
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f29492,
+    #114357
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 100px;
+  color: white;
 }
 
 li {
   list-style: none;
+  text-align: center;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+li:hover {
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #1d475a;
+  color: white;
 }
